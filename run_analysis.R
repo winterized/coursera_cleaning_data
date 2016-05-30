@@ -21,4 +21,4 @@ activities_list <- as.character(activities_list[,2]);
 all_data$activities <- factor(all_data$activities, labels = activities_list);
 rm("activities_list");
 second_set <- aggregate(all_data[,1:79], by = all_data[c("subjects","activities")], FUN = mean, na.rm = TRUE);
-write.table(second_set, "step5_set.txt")
+write.table(second_set, "step5_set.txt", row.names = FALSE)
