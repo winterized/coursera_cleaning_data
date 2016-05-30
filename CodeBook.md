@@ -19,8 +19,9 @@ The original data set I used can be found [here](https://d396qusza40orc.cloudfro
 - Then, from this new dataset, I created a new one, _step5 set.txt_, with the average of each variable for each activity and each subject.
 
 ####Variables
-
-**_excerpt of the original code book, focusing on the variables we kept in the new data set shown in this repository._**
+- subject (factor): an identifier (number 1 - 30) for each subject who carried out the experiment (n = 30).
+- activity (factor): performed activity: 1 = walking, 2 = walkingupstairs, 3 = walkingdownstairs, 4 = sitting, 5 = standing, 6 = laying,
+- 79 original variables. Here is an **_excerpt of the original code book, focusing on the variables we kept in the new data set shown in this repository._**:
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
